@@ -118,7 +118,7 @@ footer p {
 }
 /* 記事部分 */
 article {
-    width: 74%;
+    width: 60%;
 }
 /* サイドバー */
 aside {
@@ -209,5 +209,13 @@ aside p {
     /* HOME */
     .home-content {
         margin-top: 20%;
+    }
+
+    .page-header {
+        flex-direction: column;
+    }
+    article,
+    aside {
+        width: 100%;
     }
 }
