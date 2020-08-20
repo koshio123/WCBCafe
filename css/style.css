@@ -213,6 +213,12 @@ aside p {
 
     .page-header {
         flex-direction: column;
+        align-items: center;
+    }
+
+    /* NEWS */
+    .news-contents {
+        flex-direction: column;
     }
     article,
     aside {
